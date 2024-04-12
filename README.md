@@ -1,1 +1,7 @@
-# koru_gp2
+# Projeto:
+
+# Componentes:
+
+# Análises:
+
+# Pacotes:
