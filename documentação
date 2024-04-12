@@ -1,0 +1,17 @@
+##Aqui iremos explorar o que cada componente tratou das suas bases:
+
+#Victor:
+#Sobre essa base: olist_sellers_dataset.csv
+  Ela fala do cadastro dos vendedores, nela tem o ID deles, o CEP, a Cidade e o Estado.
+  o CEP não é algo no padrão que o Brasil usa: XXXXX-XXX, acredito que essa coluna seja descartável.
+  Os dados estão certinhos, não precisei transformar nada, ou substituir valores vazios ou com erros.
+  Encontrei 3095 linhas.
+  SP e PR dominam nos estados, em cidades São Paulo e Curitiba.
+  O maior vendedor está em Campinas, SP. 
+  Não encontrei outliers.
+#Sobre a base: product_category_name_translation.csv
+  O nome dela já diz bastante. São só duas colunas com a transformação dos produtos em Português para Inglês.
+  Não há células vazias, ou com erro. São 71 linhas. 
+  Outliers também não se aplica. 
+  Acredito que essa base possa cair, não faz sentido ter esse uso. Se for necessário, é descobrir qual base tem o produto e transformar para inglês, ou manter em português.
+    
